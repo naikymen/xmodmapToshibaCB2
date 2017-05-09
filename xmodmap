@@ -1,8 +1,14 @@
 # example
 # normal o key
+xmodmap -pke | grep 32
+# gives
 xmodmap -e "keycode  32 = o O o O oacute Oacute"
-# o key with omega and Omega on mode switch
-# xmodmap -e "keycode  32 = o O Greek_omega Greek_Omega oacute Oacute"
+# o key with theta and THETA on mode switch
+xmodmap -e "keycode  32 = o O Greek_theta Greek_THETA oacute Oacute"
+
+#if you have not set a mode_switch key, do so by:
+xmodmap -e "keycode 108 = Mode_switch NoSymbol ISO_Level3_Shift"
+#where 108 corresponds to my left Alt key (AltGr in other keyboards)
 
 # Fui averiguando las letras usando xev
 
@@ -20,6 +26,13 @@ xmodmap -e "keycode  65 = space NoSymbol Menu Menu"
 
 # Letras Griegas
 # http://www.cl.cam.ac.uk/~mgk25/ucs/keysyms.txt
+# example
+# normal w key
+xmodmap -pke | grep 25
+# gives
+xmodmap -e "keycode  25 = w W w W w W"
+# o key with omega and Omega on mode switch
+xmodmap -e "keycode  25 = w W Greek_omega Greek_OMEGA w W"
 # xmodmap -e "keycode  38 = a A a A aacute Aacute"
 xmodmap -e "keycode  38 = a A Greek_alpha Greek_ALPHA aacute Aacute"
 # xmodmap -e "keycode  58 = m M m M mu mu"
