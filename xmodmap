@@ -26,7 +26,7 @@ xmodmap -e "keycode  40 = d D Greek_delta Greek_DELTA eth ETH"
 xmodmap -e "keycode  46 = l L Greek_lambda Greek_LAMBDA oslash Oslash"
 
 # xmodmap -e ""
-xmodmap -e "dead_acute dead_diaeresis dead_acute dead_diaeresis apostrophe quotedbl apostrophe quotedbl dead_acute dead_diaeresis apostrophe quotedbl dead_acute dead_diaeresis apostrophe quotedbl"
+# xmodmap -e "keycode  48 = dead_acute dead_diaeresis dead_acute dead_diaeresis apostrophe quotedbl apostrophe quotedbl dead_acute dead_diaeresis apostrophe quotedbl dead_acute dead_diaeresis apostrophe quotedbl"
 # xmodmap -e "keycode  32 = o O o O oacute Oacute"
 xmodmap -e "keycode  32 = o O Greek_theta Greek_THETA oacute Oacute"
 # xmodmap -e "keycode  33 = p P p P odiaeresis Odiaeresis"
