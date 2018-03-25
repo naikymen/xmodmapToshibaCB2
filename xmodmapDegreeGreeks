@@ -1,0 +1,22 @@
+xmodmap -e "keycode  49 = dead_grave dead_tilde degree asciitilde degree asciitilde grave asciitilde dead_grave dead_tilde"
+xmodmap -e "keycode  32 = o O Greek_theta Greek_THETA Greek_theta Greek_THETA oacute"
+# o key with omega and Omega on mode switch
+xmodmap -e "keycode  25 = w W Greek_omega Greek_OMEGA Greek_omega Greek_OMEGA"
+# xmodmap -e "keycode  38 = a A a A aacute Aacute"
+xmodmap -e "keycode  38 = a A Greek_alpha Greek_ALPHA aacute Aacute"
+# xmodmap -e "keycode  58 = m M m M mu mu"
+xmodmap -e "keycode  58 = m M mu mu mu mu"
+# xmodmap -e "keycode  56 = b B b B b B"
+xmodmap -e "keycode  56 = b B Greek_beta Greek_BETA Greek_beta Greek_BETA"
+# xmodmap -e "keycode  40 = d D d D eth ETH"
+xmodmap -e "keycode  40 = d D Greek_delta Greek_DELTA Greek_delta Greek_DELTA"
+# xmodmap -e "keycode  46 = l L l L oslash Oslash"
+xmodmap -e "keycode  46 = l L Greek_lambda Greek_LAMBDA Greek_lambda Greek_LAMBDA oslash Oslash"
+
+xmodmap -e "keycode  39 = s S Greek_sigma Greek_SIGMA Greek_sigma Greek_SIGMA"
+
+# xmodmap -e "keycode  33 = p P p P odiaeresis Odiaeresis"
+xmodmap -e "keycode  33 = p P Greek_pi Greek_PI Greek_pi Greek_PI"
+
+# xmodmap -e "keycode  28 = t T t T thorn THORN"
+xmodmap -e "keycode  28 = t T Greek_tau Greek_TAU Greek_tau Greek_TAU thorn THORN"
